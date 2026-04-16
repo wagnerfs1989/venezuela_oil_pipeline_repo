@@ -1,0 +1,35 @@
+# Secrets — NUNCA commitar
+*.env
+secrets.py
+config/secrets.py
+*_secrets.py
+
+# Databricks
+.databricks/
+*.dbc
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Dados locais
+*.csv
+*.parquet
+*.json
+data/
+raw/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
